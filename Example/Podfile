@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FFStarView_Example' do
+  pod 'FFStarView', :path => '../'
+
+  target 'FFStarView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
