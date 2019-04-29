@@ -1,0 +1,6 @@
+framework module FFStarView {
+  umbrella header "FFStarView-umbrella.h"
+
+  export *
+  module * { export * }
+}

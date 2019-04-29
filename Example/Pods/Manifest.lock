@@ -1,0 +1,16 @@
+PODS:
+  - FFStarView (0.0.1)
+
+DEPENDENCIES:
+  - FFStarView (from `../`)
+
+EXTERNAL SOURCES:
+  FFStarView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFStarView: b1ef9a82725ff0b293bbdf201e5511c4fc3cbe63
+
+PODFILE CHECKSUM: 182e93cea989284cc4242928fd043e3059efbcfb
+
+COCOAPODS: 1.5.3

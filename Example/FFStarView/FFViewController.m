@@ -7,9 +7,12 @@
 //
 
 #import "FFViewController.h"
+#import "Masonry.h"
+#import "FFStarView.h"
 
 @interface FFViewController ()
-
+/**<#desc#>*/
+@property (nonatomic, weak) FFStarView *v;
 @end
 
 @implementation FFViewController
@@ -17,13 +20,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    
+    FFStarView *v = [[FFStarView alloc] init];
+    v.starMargin = 5;
+    v.starScore = 4.5;
+    v.clickBlock = ^(int starScore) {
+        NSLog(@">>>%d",starScore);
+    };
+    v.type = FFStarViewTypeSelect;
+    [self.view addSubview:v];
+    self.v = v;
+    
+    [v mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.equalTo(self.view).offset(50);
+    }];
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+- (IBAction)testclick:(id)sender {
+    self.v.starCount = 7;
+    float s = self.v.starScore;
+    NSLog(@"%f",s);
 }
 
 @end

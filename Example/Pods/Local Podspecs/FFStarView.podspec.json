@@ -1,0 +1,22 @@
+{
+  "name": "FFStarView",
+  "version": "0.0.1",
+  "summary": "星星评分小demo",
+  "description": "星星评分小demo……^_^",
+  "homepage": "https://github.com/fanxiaoApple/FFStarView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanxiaoApple": "547900997@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fanxiaoApple/FFStarView.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FFStarView/Classes/**/*"
+}
