@@ -32,7 +32,7 @@
     self.v = v;
     
     [v mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.equalTo(self.view).offset(50);
+        make.top.left.equalTo(self.view).offset(50);//不需要设置frame，只需要设置约束即可，宽高根据星星图片大小自适应
     }];
 
 }
