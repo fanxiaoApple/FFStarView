@@ -1,29 +1,3 @@
 # FFStarView
 
-[![CI Status](https://img.shields.io/travis/fanxiaoApple/FFStarView.svg?style=flat)](https://travis-ci.org/fanxiaoApple/FFStarView)
-[![Version](https://img.shields.io/cocoapods/v/FFStarView.svg?style=flat)](https://cocoapods.org/pods/FFStarView)
-[![License](https://img.shields.io/cocoapods/l/FFStarView.svg?style=flat)](https://cocoapods.org/pods/FFStarView)
-[![Platform](https://img.shields.io/cocoapods/p/FFStarView.svg?style=flat)](https://cocoapods.org/pods/FFStarView)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-FFStarView is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'FFStarView'
-```
-
-## Author
-
-fanxiaoApple, XF_MBP@qq.com
-
-## License
-
-FFStarView is available under the MIT license. See the LICENSE file for more info.
+将Classes中的FFStarView.h/.m文件及FFStarView.bundle拖入工程中，即可使用，如需替换图片，可以将替换的图片放在FFStarView.bundle中，替换成原来的图片名即可
